@@ -1,13 +1,13 @@
 {
   "name": "verbose-dashboard",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Verbose CMS API",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "dev": "nodemon -L example/express.js",
     "manual": "npm version patch -m \"Version %s\" && git push && git push --tags",
-    "release": "standard-version && git push --follow-tags origin master"
+    "release": "standard-version --release-as patch && git push --follow-tags origin master"
   },
   "repository": {
     "type": "git",
