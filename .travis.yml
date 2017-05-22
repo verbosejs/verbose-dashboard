@@ -8,6 +8,11 @@ cache:
     - node_modules
 before_install:
 script:
-  # Run test script, depending on istanbul install
   - "npm test"
 after_script:
+deploy:
+  provider: npm
+  email: neil@roughcoder.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
