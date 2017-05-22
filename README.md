@@ -9,10 +9,10 @@ API GraphQL API for verbose cms [express](https://github.com/verbosejs/verbose-e
 
 ```js
 const express = require('express');
-const verboseApi = require('verbose-dashboard');
+const verboseDashboard = require('verbose-dashboard');
 const app = express();
 
-app.use(verboseApi());
+app.use(verboseDashboard());
 
 app.get('/', function (req, res) {
   res.send('Hello World');
@@ -35,13 +35,13 @@ $ npm install verbose-dashboard
   
 ## API
 
-### verboseApi(options)
+### verboseDashboard(options)
 
 Boots up the API, routes and connects to database.
 
 - `options` an object that is passed to `verbose-dashboard` on setup 
 
-### verboseApi.version
+### verboseDashboard.version
 
 Returns the current version of the verbose api you are using
 
@@ -49,10 +49,10 @@ Returns the current version of the verbose api you are using
 
 ```js
 var express = require('express')
-var verboseApi = require('verbose-dashboard')
+var verboseDashboard = require('verbose-dashboard')
 
 var app = express()
-app.use(verboseApi({options}))
+app.use(verboseDashboard({options}))
 ```
 
 #### options.something
