@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon -L example/express.js"
+    "dev": "nodemon -L example/express.js",
+    "release": "npm version patch"
   },
   "repository": {
     "type": "git",
