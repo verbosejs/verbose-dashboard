@@ -1,6 +1,6 @@
 {
   "name": "verbose-dashboard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Verbose CMS API",
   "main": "index.js",
   "scripts": {
