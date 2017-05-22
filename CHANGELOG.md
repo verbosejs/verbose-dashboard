@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/verbosejs/verbose-dashboard/compare/v0.1.0...v0.1.1) (2017-05-22)
+
+
+### Bug Fixes
+
+* **testing:** npm run release changed to npm run manual ([4ea441d](https://github.com/verbosejs/verbose-dashboard/commit/4ea441d))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/verbosejs/verbose-dashboard/compare/v0.0.6...v0.1.0) (2017-05-22)
 
