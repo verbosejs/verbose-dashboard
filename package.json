@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon -L example/express.js",
-    "release2": "npm version patch -m \"Version %s\" && git push && git push --tags",
-    "release": "standard-version"
+    "manual": "npm version patch -m \"Version %s\" && git push && git push --tags",
+    "release": "standard-version && git push --follow-tags origin master"
   },
   "repository": {
     "type": "git",
